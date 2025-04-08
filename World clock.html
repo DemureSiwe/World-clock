@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mystyles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Busisiwe Tsetseng</title>
   </head>
   <body>
@@ -12,26 +14,26 @@
 
       <select>
         <option value="">Choose city</option>
-        <option value="">South Africa</option>
+        <option value="">Khenya</option>
         <option value="">London</option>
         <option value="">Sydney</option>
         <option value="">Japan</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="south-africa">
         <div>
-          <h2>Khenya</h2>
-          <div class="date">April 06 2025</div>
+          <h2>South Africa</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">03:00<small>AM</small></div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="kenya">
         <div>
-          <h2>Khenya</h2>
-          <div class="date">April 06 2025</div>
+          <h2>Kenya</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">03:00<small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
 
